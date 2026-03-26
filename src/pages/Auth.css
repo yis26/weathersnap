@@ -1,0 +1,93 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.auth-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 36px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+}
+
+.auth-logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+.auth-card h2 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 4px;
+}
+
+.auth-sub {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 28px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #374151;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: #2563eb;
+}
+
+.btn-submit {
+  margin-top: 20px;
+  padding: 12px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-submit:hover { background: #1d4ed8; }
+
+.auth-footer {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: #64748b;
+  text-align: center;
+}
+
+.auth-footer span {
+  color: #2563eb;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.auth-footer span:hover { text-decoration: underline; }
